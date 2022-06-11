@@ -1,8 +1,161 @@
+/*régles généraux*/
 
+@font-face {
+      font-family: 'Rajdhani';
+      src: url(./fonts/Rajdhani-Medium.ttf);
+}
+@font-face {
+      font-family: 'Space-Grotesk bold';
+      src: url(./fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+      font-family: 'Space-Grotesk regular';
+      src: url(./fonts/SpaceGrotesk-Regular.ttf);
+}
+:root{
+      --yellow-color: #ff0;
+      --WHITE-color: #fff;
+      --BLACK-color: #000;
+      --GRAY-color: #c4c4c4;
+      --yellow1-color: #f8f184;
+      --BLACK1-color: #0d0e09;
+      --MARON-color: #b11313;
+      --BLEU-color: #19589d;
+      --HOVER1-color: #eddebf;
+      --HOVER2-color: #890008;
 
+}
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+h1{
+      font-family: 'Rajdhani';
+      font-size: 36px;
+      font-weight: 400;
+      margin-bottom: 40px;
+}
+h2{
+      font-family: 'Space-Grotesk bold';
+      font-size: 30px;
+      font-weight: 300; 
+}
+h3{
+      font-family: 'Space-Grotesk regular';
+      font-size: 20px;
+      font-weight: 300;
+} 
+p{
+      font-family: 'Space-Grotesk regular';
+      font-size: 20px;
+      font-weight: 300;
+} 
+body{
+      color: #fff;
+}
 
+button{
+      font-family: 'Rajdhani';
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+}
 
 body{
-      background-color:rgb(238, 255, 0)
+      background-image: url(./Assets/Illustrations/Bathome1.png);
+      background-repeat: no-repeat;
+      background-color: var(--BLACK-color);
      
 }
+header,main,footer{
+      border: 2px solid rgb(236, 240, 241);
+      margin: auto;
+      width: 80%;
+}
+section{
+      margin-left: 30px;
+      margin-right: 30px;
+}
+main{
+      margin-bottom: 0;
+}
+footer{
+      margin-top: 0;
+}
+/* section hero*/
+nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 200px;
+}
+header{
+      padding: 0 132px;
+}
+a{
+      list-style: none;
+      color: #fff;
+      text-decoration: none;
+}
+ul{
+      list-style: none;
+}
+nav ul a{
+      color: var(--WHITE-color);
+      font-size: 30px;
+      font-weight: 500;
+      font-family: 'Rajdhani';
+     
+}
+nav ul a:hover{
+      color: var(--yellow-color);   
+}
+    
+.hero_text{
+      text-align: center;
+      margin: 200px;
+      margin-bottom: 20px;
+}
+.hero_titre{
+      text-align: center;
+      margin-bottom: 20px;
+}
+.hero_button{
+      text-align: center;
+      margin-bottom: 280px;
+      border: 2px solid var(--WHITE-color);
+      border-radius: 2px;
+}
+/* section batman au cinema*/
+.card{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      margin-bottom: 100px;
+}
+.hero_logo{
+      justify-content: center;
+      margin-bottom: 50px;
+}
+
+
+/* section nemesis*/
+.section3
+/* section alliés*/
+.section4
+/* section justice league*/
+.section5> img{
+      margin-left: -100px;
+}
+/* section multimedia*/
+.section6.div1 div{
+      display: flex;        
+} 
+
+      
+/* section formulaire*/
+.section7
+/* section replique*/
+.section8
+/* section footer*/
