@@ -16,13 +16,13 @@
       --yellow-color: #ff0;
       --WHITE-color: #fff;
       --BLACK-color: #000;
-      --GRAY-color: #c4c4c4;
+      --GRAY-color: #c4c4c480;
       --yellow1-color: #f8f184;
       --BLACK1-color: #0d0e09;
       --MARON-color: #b11313;
-      --BLEU-color: #19589d;
-      --HOVER1-color: #eddebf;
-      --HOVER2-color: #890008;
+      --BLEU-color: #19599d77;
+      --HOVER1-color: #eddebf67;
+      --HOVER2-color: #89000979;
 
 }
 *{
@@ -35,6 +35,7 @@ h1{
       font-size: 36px;
       font-weight: 400;
       margin-bottom: 40px;
+      margin-top: 40px;
 }
 h2{
       font-family: 'Space-Grotesk bold';
@@ -50,6 +51,7 @@ p{
       font-family: 'Space-Grotesk regular';
       font-size: 20px;
       font-weight: 300;
+     
 } 
 body{
       color: #fff;
@@ -69,19 +71,19 @@ body{
      
 }
 header,main,footer{
-      border: 2px solid rgb(236, 240, 241);
+      /* border: 2px solid rgb(236, 240, 241); */
       margin: auto;
       width: 80%;
 }
-section{
-      margin-left: 30px;
-      margin-right: 30px;
-}
+/* section{
+      margin-left: 5%;
+      margin-right: 5%;
+} */
 main{
-      margin-bottom: 0;
+      border-bottom: 0;
 }
 footer{
-      margin-top: 0;
+      border-top: 0;
 }
 /* section hero*/
 nav{
@@ -124,8 +126,25 @@ nav ul a:hover{
 .hero_button{
       text-align: center;
       margin-bottom: 280px;
-      border: 2px solid var(--WHITE-color);
-      border-radius: 2px;
+      
+}
+.btn{
+      font-size: 22px;
+      padding: 10px 20px;
+      background: linear-gradient(80deg, var(--HOVER1-color ),var(--HOVER2-color));
+      box-shadow: #000 5px 5px 50px;
+      margin-top: 10px;
+}
+.logo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      right: 80px;
+      top: 240px;
+}
+.logo .social{
+      margin-top: 15px;
 }
 /* section batman au cinema*/
 .card{
@@ -135,27 +154,66 @@ nav ul a:hover{
       margin-bottom: 100px;
 }
 .hero_logo{
-      justify-content: center;
-      margin-bottom: 50px;
-}
-
-
-/* section nemesis*/
-.section3
-/* section alliés*/
-.section4
-/* section justice league*/
-.section5> img{
-      margin-left: -100px;
-}
-/* section multimedia*/
-.section6.div1 div{
-      display: flex;        
-} 
-
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       
-/* section formulaire*/
-.section7
+}
+.personnage_info{
+      text-align: center;
+}
+
+
+
+/* section3 nemesis*/
+
+/* section4 alliés*/
+
+/* section5 justice league*/
+#section5 .justice{
+      margin: 5% -15%;
+      /* width: 100%; */
+}
+/* section6 multimedia*/
+
+/* section7 formulaire*/
+#section7{
+      background:linear-gradient(80deg, var(--GRAY-color ),var(--BLEU-color));
+}
 /* section replique*/
-.section8
+#section8{
+      margin: 90px;
+
+}
+#section8 .citations-items{
+      width: 50%;
+      margin: 10px auto;
+}
+#section8 .replique{
+      padding-top: 30px;
+      font-family: 'Rajdhani';
+
+}
+#section8 .citations{
+      padding-top: 30px;
+      font-size: 14px;
+      font-family: 'Rajdhani';
+}
+#section8 .guillemet_bas{
+      float: right;
+}
 /* section footer*/
+footer{
+      margin-top: 200px;
+}
+footer .text_footer{
+      text-align: center;
+      font-size: 14px;
+}
+footer .reseaux{
+      text-align: center;
+      margin: 50px 0;
+}
+footer .social{
+      padding: 20px;
+}
